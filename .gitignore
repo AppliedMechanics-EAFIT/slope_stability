@@ -1,9 +1,7 @@
 .nbinteract.json
 .python-version
 
-notebooks/mohr_circles_and_stress_paths.ipynb
 notebooks/test.ipynb
 notebooks/Slope stability class at EAFIT.svg
 notebooks/Slope stability class at EAFIT.txt
-notebooks/limit_equilibrium_method-TESTS.ipynb
-notebooks/global_equilibrium_method-TEST.ipynb
+notebooks/deprecated/*
