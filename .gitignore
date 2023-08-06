@@ -5,3 +5,5 @@ notebooks/test.ipynb
 notebooks/Slope stability class at EAFIT.svg
 notebooks/Slope stability class at EAFIT.txt
 notebooks/deprecated/*
+notebooks/mohr_circles_and_stress_paths.html
+requirements_all.txt
