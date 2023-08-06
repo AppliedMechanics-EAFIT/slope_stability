@@ -4,5 +4,4 @@ scipy==1.10.1
 ipywidgets==7.7.5
 ipykernel==6.25.0
 ipympl==0.9.3
-notebook==7.0.1
 jupyterlab==3.6.5
