@@ -10,5 +10,6 @@ Teaching tools for the slope stability class at EAFIT University.
 1. [Shear strength envelopes](./notebooks/strength_envelopes.ipynb)
 1. [Global equilibrium Mmethod](./notebooks/global_equilibrium_method.ipynb)
 1. [Limit equilibrium Mmethod](./notebooks/limit_equilibrium_method.ipynb)
+1. [Triggering factors: Rainfall](./notebooks/infinite_slope_rainfall.ipynb)
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz and Universidad EAFIT.
