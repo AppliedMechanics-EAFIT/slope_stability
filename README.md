@@ -13,6 +13,7 @@ Teaching tools for the slope stability class at EAFIT University.
 1. [Triggering factors: Earthquakes](./notebooks/infinite_slope_earthquake.ipynb)
 1. [Approach to seismic landslide hazard](./notebooks/infinite_slope_earthquake_spatial.ipynb)
 1. [Triggering factors: Rainfall](./notebooks/infinite_slope_rainfall.ipynb)
+1. [Approach to rainfall landslide hazard](./notebooks/infinite_slope_rainfall_spatial.ipynb)
 
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz and Universidad EAFIT.
