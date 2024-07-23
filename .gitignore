@@ -1,9 +1,8 @@
 .nbinteract.json
 .python-version
 
-.vscode/*
-*.ipynb
-*_build/
+.vscode/
+_build/
 notebooks/02_trigg_factors/raw.githubusercontent.com
 notebooks/02_trigg_factors/TRIG*
 notebooks/02_trigg_factors/*parcial*
