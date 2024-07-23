@@ -1,22 +1,14 @@
 .nbinteract.json
 .python-version
 
-notebooks/test.ipynb
-notebooks/Slope stability class at EAFIT.svg
-notebooks/Slope stability class at EAFIT.txt
-notebooks/spt_processing_input_2.xlsx
-notebooks/spt_processing_input.xlsx
-notebooks/deprecated/
-notebooks/mohr_circles_and_stress_paths.html
-notebooks/mohr_circles_and_stress_paths_copy.ipynb
-requirements_all.txt
-notebooks/mohr_circles_and_stress_paths copy.ipynb
-notebooks/~$spt_processing_input_2.xlsx
-notebooks/input_data/
-notebooks/records/
-notebooks/TRIG*
-notebooks/raw.githubusercontent.com
-
-
 .vscode/*
 *.ipynb
+*_build/
+notebooks/02_trigg_factors/raw.githubusercontent.com
+notebooks/02_trigg_factors/TRIG*
+notebooks/02_trigg_factors/*parcial*
+notebooks/02_trigg_factors/records/
+notebooks/03_rupture/*.svg
+notebooks/03_rupture/*.txt
+notebooks/input_data/
+notebooks/deprecated/

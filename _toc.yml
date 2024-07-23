@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Conditioning factors
+    chapters:
+      - file: notebooks/01_cond_factors/mohr_circles_and_stress_paths
+      - file: notebooks/01_cond_factors/mohr_circles_for_strains
+      - file: notebooks/01_cond_factors/spt_processing
+      - file: notebooks/01_cond_factors/strength_envelopes
+      - file: notebooks/01_cond_factors/landslide_susceptibility
+  - caption: Triggering factors
+    chapters:
+      - file: notebooks/02_trigg_factors/infinite_slope_earthquake
+      - file: notebooks/02_trigg_factors/infinite_slope_earthquake_spatial
+      - file: notebooks/02_trigg_factors/infinite_slope_rainfall
+      - file: notebooks/02_trigg_factors/infinite_slope_rainfall_spatial
+  - caption: Rupture
+    chapters:
+      - file: notebooks/03_rupture/global_equilibrium_method
+      - file: notebooks/03_rupture/limit_equilibrium_method
+  - caption: Propagation
+    chapters:
+      - file: notebooks/04_propagation/04_intro
