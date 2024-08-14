@@ -2,6 +2,8 @@
 
 Teaching tools for the slope stability class at EAFIT University.
 
+[![GitHub](https://img.shields.io/badge/jupyter-book-orange?style=for-the-badge&logo=jupyter&logoColor=orange)](https://appliedmechanics-eafit.github.io/slope_stability/)
+
 ## Contents
 
 ### Conditioning factors
