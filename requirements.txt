@@ -11,3 +11,4 @@ ipympl==0.9.3
 jupyterlab==3.6.5
 pycss_lem
 pynewmarkdisp
+scikit-learn
