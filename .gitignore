@@ -11,3 +11,5 @@ notebooks/03_rupture/*.svg
 notebooks/03_rupture/*.txt
 notebooks/input_data/
 notebooks/deprecated/
+/notebooks/02_trigg_factors/figs
+/notebooks/02_trigg_factors/pytrigrs/__pycache__
