@@ -11,6 +11,8 @@ Teaching tools for the slope stability class at EAFIT University.
 1. [Mohr circle for strains](./notebooks/01_cond_factors/mohr_circles_for_strains.ipynb)
 1. [SPT processing](./notebooks/01_cond_factors/spt_processing.ipynb)
 1. [Shear strength envelopes](./notebooks/01_cond_factors/strength_envelopes.ipynb)
+1. [Susceptibility assessment](./notebooks/01_cond_factors/landslide_susceptibility.ipynb)
+
 
 ### Triggering factors
 1. [Triggering factors: Earthquakes](./notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb)
