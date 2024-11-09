@@ -13,3 +13,4 @@ notebooks/input_data/
 notebooks/deprecated/
 /notebooks/02_trigg_factors/figs
 /notebooks/02_trigg_factors/pytrigrs/__pycache__
+/notebooks/01_cond_factors/data

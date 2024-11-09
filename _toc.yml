@@ -21,6 +21,7 @@ parts:
     chapters:
       - file: notebooks/03_rupture/global_equilibrium_method
       - file: notebooks/03_rupture/limit_equilibrium_method
+      - file: notebooks/03_rupture/prob_failure_infinite_slope
   - caption: Propagation
     chapters:
       - file: notebooks/04_propagation/04_intro

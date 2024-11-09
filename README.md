@@ -23,6 +23,7 @@ Teaching tools for the slope stability class at EAFIT University.
 ### Rupture and failure mechanisms
 1. [Global equilibrium Method](./notebooks/03_rupture/global_equilibrium_method.ipynb)
 1. [Limit equilibrium Method](./notebooks/03_rupture/limit_equilibrium_method.ipynb)
+1. [Probability of failure](./notebooks/03_rupture/prob_failure_infinite_slope.ipynb)
 
 ### Propagation of unstable masses
 1. (Work in progress)
