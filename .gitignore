@@ -12,5 +12,15 @@ notebooks/03_rupture/*.txt
 notebooks/input_data/
 notebooks/deprecated/
 /notebooks/02_trigg_factors/figs
+/notebooks/02_trigg_factors/pytrigrs/
 /notebooks/02_trigg_factors/pytrigrs/__pycache__
 /notebooks/01_cond_factors/data
+notebooks/01_cond_factors/dictionary
+notebooks/01_cond_factors/inventories.ipynb
+notebooks/01_cond_factors/landslide_susceptibility copy.ipynb
+notebooks/01_cond_factors/test.json
+notebooks/02_trigg_factors/infinite_slope_rainfall_HT_landslide.ipynb
+notebooks/02_trigg_factors/infinite_slope_rainfall_thresholds.ipynb
+
+notebooks/02_trigg_factors/infinite_slope_rainfall_thresholds.ipynb
+notebooks/02_trigg_factors/infinite_slope_rainfall_thresholds.ipynb
