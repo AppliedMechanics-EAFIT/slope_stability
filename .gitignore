@@ -19,6 +19,11 @@ notebooks/01_cond_factors/dictionary
 notebooks/01_cond_factors/inventories.ipynb
 notebooks/01_cond_factors/landslide_susceptibility copy.ipynb
 notebooks/01_cond_factors/test.json
+notebooks/01_cond_factors/figures
 notebooks/02_trigg_factors/infinite_slope_rainfall_HT_landslide.ipynb
 notebooks/02_trigg_factors/infinite_slope_rainfall_thresholds.ipynb
 notebooks/02_trigg_factors/infinite_slope_rainfall_thresholds - Copy.ipynb
+notebooks/02_trigg_factors/Cases/
+notebooks/01_cond_factors/residual_strength_vs_plasticity.ipynb
+notebooks/01_cond_factors/spt_processing_venecia.ipynb
+notebooks/01_cond_factors/strength_envelopes_venecia.ipynb
