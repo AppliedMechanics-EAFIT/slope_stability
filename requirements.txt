@@ -12,4 +12,4 @@ jupyterlab==3.6.5
 pycss_lem
 pynewmarkdisp
 scikit-learn==1.6.1
-rasterio==1.5.0
+rasterio>=1.4.0
