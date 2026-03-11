@@ -15,6 +15,7 @@ notebooks/02_trigg_factors/figs
 notebooks/02_trigg_factors/pytrigrs/
 notebooks/02_trigg_factors/pytrigrs/__pycache__
 notebooks/01_cond_factors/data
+notebooks/01_cond_factors/*
 notebooks/01_cond_factors/dictionary
 notebooks/01_cond_factors/inventories.ipynb
 notebooks/01_cond_factors/landslide_susceptibility copy.ipynb
@@ -27,3 +28,5 @@ notebooks/02_trigg_factors/Cases/
 notebooks/01_cond_factors/residual_strength_vs_plasticity.ipynb
 notebooks/01_cond_factors/spt_processing_venecia.ipynb
 notebooks/01_cond_factors/strength_envelopes_venecia.ipynb
+notebooks/04_propagation/inputs
+obsoleto/

@@ -1,0 +1,19 @@
+[project]
+name = "eafit-slope-stability"
+version = "0.1.0"
+description = "Teaching tools for the slope stability class at EAFIT University"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=1.1.2",
+    "ipympl>=0.10.0",
+    "matplotlib>=3.10.0",
+    "numba>=0.60.0",
+    "numpy==2.0.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.2",
+    "pip>=26.0.1",
+    "rasterio>=1.5.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.16.3",
+]
