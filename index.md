@@ -14,8 +14,8 @@ Check out the contents on the left panel to access them and their notebooks.
 <!-- ```{toctree}
 ``` -->
 
-## References
+<!-- ## References
 
 ```{bibliography}
 :style: plain
-```
+``` -->

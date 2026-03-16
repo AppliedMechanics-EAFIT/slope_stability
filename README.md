@@ -26,6 +26,6 @@ Teaching tools for the slope stability class at EAFIT University.
 1. [Probability of failure](./notebooks/03_rupture/prob_failure_infinite_slope.ipynb)
 
 ### Propagation of unstable masses
-1. (Work in progress)
+1. [Semiempirical simulation of landslide runout](./notebooks/04_propagation/runout_semiempirical.ipynb)
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz and Universidad EAFIT.

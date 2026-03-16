@@ -1,0 +1,47 @@
+version: 1
+project:
+  title: Slope stability notes
+  authors:
+    - name: Daniel F. Ruiz & Exneyder A. Montoya Araque
+  copyright: '2024'
+  github: AppliedMechanics-EAFIT/slope_stability
+  thebe:
+    binder:
+      repo: AppliedMechanics-EAFIT/slope_stability
+      provider: github
+      url: https://mybinder.org
+      ref: main
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/Slope_stability_notes.pdf
+  toc:
+    - file: index.md
+    - title: Conditioning factors
+      children:
+        - file: notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb
+        - file: notebooks/01_cond_factors/mohr_circles_for_strains.ipynb
+        - file: notebooks/01_cond_factors/spt_processing.ipynb
+        - file: notebooks/01_cond_factors/strength_envelopes.ipynb
+        - file: notebooks/01_cond_factors/landslide_susceptibility.ipynb
+    - title: Triggering factors
+      children:
+        - file: notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb
+        - file: notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb
+        - file: notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb
+        - file: notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb
+    - title: Rupture
+      children:
+        - file: notebooks/03_rupture/global_equilibrium_method.ipynb
+        - file: notebooks/03_rupture/limit_equilibrium_method.ipynb
+        - file: notebooks/03_rupture/prob_failure_infinite_slope.ipynb
+    - title: Propagation
+      children:
+        - file: notebooks/04_propagation/runout_semiempirical.ipynb
+site:
+  options:
+    logo: notebooks/figs/logo.svg
+    folders: true
+  template: book-theme

@@ -30,3 +30,10 @@ notebooks/01_cond_factors/spt_processing_venecia.ipynb
 notebooks/01_cond_factors/strength_envelopes_venecia.ipynb
 notebooks/04_propagation/inputs
 obsoleto/
+*.bak
+/notebooks/02_trigg_factors/data_trigrs
+/notebooks/02_trigg_factors/ET_spatial
+/notebooks/02_trigg_factors/ET_test
+/notebooks/02_trigg_factors/inputs
+/notebooks/04_propagation/data
+uv.lock
