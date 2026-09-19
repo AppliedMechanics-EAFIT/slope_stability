@@ -1,31 +1,75 @@
-# Slope stability tools
+# Estabilidad de taludes
 
-Teaching tools for the slope stability class at EAFIT University.
+Libro digital y herramientas reproducibles para el curso de posgrado de
+**Estabilidad de Taludes** de la Universidad EAFIT.
 
-[![GitHub](https://img.shields.io/badge/jupyter-book-orange?style=for-the-badge&logo=jupyter&logoColor=orange)](https://appliedmechanics-eafit.github.io/slope_stability/)
+[![Jupyter Book](https://img.shields.io/badge/Jupyter_Book-ver_sitio-F37726?style=for-the-badge&logo=jupyter&logoColor=white)](https://appliedmechanics-eafit.github.io/slope_stability/)
 
-## Contents
+## Uso local
 
-### Conditioning factors
-1. [Mohr circle and stress paths](./notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb)
-1. [Mohr circle for strains](./notebooks/01_cond_factors/mohr_circles_for_strains.ipynb)
-1. [SPT processing](./notebooks/01_cond_factors/spt_processing.ipynb)
-1. [Shear strength envelopes](./notebooks/01_cond_factors/strength_envelopes.ipynb)
-1. [Susceptibility assessment](./notebooks/01_cond_factors/landslide_susceptibility.ipynb)
+El entorno del proyecto está alineado con las versiones científicas del runtime
+de Google Colab, verificado el 18 de septiembre de 2026:
 
+```bash
+UV_PROJECT_ENVIRONMENT=/home/eamontoyaa/.venvs/eafit-env uv sync
+source /home/eamontoyaa/.venvs/eafit-env/bin/activate
+jupyter book build --html --strict
+```
 
-### Triggering factors
-1. [Triggering factors: Earthquakes](./notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb)
-1. [Approach to seismic landslide hazard](./notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb)
-1. [Triggering factors: Rainfall](./notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb)
-1. [Approach to rainfall landslide hazard](./notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb)
+Para validar la estructura y el código de los notebooks sin ejecutar los
+modelos: `python scripts/validate_notebooks.py`.
 
-### Rupture and failure mechanisms
-1. [Global equilibrium Method](./notebooks/03_rupture/global_equilibrium_method.ipynb)
-1. [Limit equilibrium Method](./notebooks/03_rupture/limit_equilibrium_method.ipynb)
-1. [Probability of failure](./notebooks/03_rupture/prob_failure_infinite_slope.ipynb)
+El sitio se genera en `_build/html`. Cada capítulo incluye un enlace a Colab y
+mantiene dos rutas de entrada: datos públicos de demostración o carga de archivos
+propios. Los rasters propios deben tener CRS definido; los notebooks comprueban o
+alinean extensión, origen, resolución, tamaño y valores `nodata` antes de operar.
 
-### Propagation of unstable masses
-1. [Semiempirical simulation of landslide runout](./notebooks/04_propagation/runout_semiempirical.ipynb)
+## Contenido
 
-© 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz and Universidad EAFIT.
+### Dominio espacial (análisis territorial)
+
+Herramientas que trabajan con inventarios y rasters sobre un área de estudio.
+
+#### Factores condicionantes
+
+1. [Susceptibilidad a movimientos en masa](./notebooks/01_cond_factors/landslide_susceptibility.ipynb)
+
+#### Factores detonantes
+
+1. [Sismo en un dominio espacial](./notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb)
+1. [Lluvia en un dominio espacial](./notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb)
+
+#### Propagación
+
+1. [Simulación semiempírica de propagación](./notebooks/04_propagation/runout_semiempirical.ipynb)
+
+### Dominio talud (análisis local)
+
+Herramientas para caracterizar y analizar un talud o sección representativa.
+
+#### Factores condicionantes
+
+1. [Círculos de Mohr y trayectorias de esfuerzos](./notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb)
+1. [Círculo de Mohr para deformaciones](./notebooks/01_cond_factors/mohr_circles_for_strains.ipynb)
+1. [Procesamiento del ensayo SPT](./notebooks/01_cond_factors/spt_processing.ipynb)
+1. [Envolventes de resistencia al corte](./notebooks/01_cond_factors/strength_envelopes.ipynb)
+
+#### Factores detonantes
+
+1. [Sismo en un talud infinito](./notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb)
+1. [Lluvia en un talud infinito](./notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb)
+
+#### Rotura
+
+1. [Método de equilibrio global](./notebooks/03_rupture/global_equilibrium_method.ipynb)
+1. [Método de equilibrio límite](./notebooks/03_rupture/limit_equilibrium_method.ipynb)
+1. [Probabilidad de falla](./notebooks/03_rupture/prob_failure_infinite_slope.ipynb)
+
+## Respaldo
+
+Antes de la reimplementación se creó
+`notebook_backups/notebooks_2026-09-11_before_refactor.tar.gz`, que contiene los
+46 notebooks encontrados en el repositorio. Su SHA-256 es
+`5d9dfddea2aab25905b00c471632f5165f50b01b56150cfc7787c2c157a18fa5`.
+
+© 2022–2026 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.

@@ -1,9 +1,9 @@
 version: 1
 project:
-  title: Slope stability notes
+  title: Estabilidad de taludes
   authors:
     - name: Daniel F. Ruiz & Exneyder A. Montoya Araque
-  copyright: '2024'
+  copyright: '2026'
   github: AppliedMechanics-EAFIT/slope_stability
   thebe:
     binder:
@@ -19,27 +19,35 @@ project:
       output: exports/Slope_stability_notes.pdf
   toc:
     - file: index.md
-    - title: Conditioning factors
+    - title: Dominio espacial (análisis territorial)
       children:
-        - file: notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb
-        - file: notebooks/01_cond_factors/mohr_circles_for_strains.ipynb
-        - file: notebooks/01_cond_factors/spt_processing.ipynb
-        - file: notebooks/01_cond_factors/strength_envelopes.ipynb
-        - file: notebooks/01_cond_factors/landslide_susceptibility.ipynb
-    - title: Triggering factors
+        - title: Factores condicionantes
+          children:
+            - file: notebooks/01_cond_factors/landslide_susceptibility.ipynb
+        - title: Factores detonantes
+          children:
+            - file: notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb
+            - file: notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb
+        - title: Propagación
+          children:
+            - file: notebooks/04_propagation/runout_semiempirical.ipynb
+    - title: Dominio talud (análisis local)
       children:
-        - file: notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb
-        - file: notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb
-        - file: notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb
-        - file: notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb
-    - title: Rupture
-      children:
-        - file: notebooks/03_rupture/global_equilibrium_method.ipynb
-        - file: notebooks/03_rupture/limit_equilibrium_method.ipynb
-        - file: notebooks/03_rupture/prob_failure_infinite_slope.ipynb
-    - title: Propagation
-      children:
-        - file: notebooks/04_propagation/runout_semiempirical.ipynb
+        - title: Factores condicionantes
+          children:
+            - file: notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb
+            - file: notebooks/01_cond_factors/mohr_circles_for_strains.ipynb
+            - file: notebooks/01_cond_factors/spt_processing.ipynb
+            - file: notebooks/01_cond_factors/strength_envelopes.ipynb
+        - title: Factores detonantes
+          children:
+            - file: notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb
+            - file: notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb
+        - title: Rotura
+          children:
+            - file: notebooks/03_rupture/global_equilibrium_method.ipynb
+            - file: notebooks/03_rupture/limit_equilibrium_method.ipynb
+            - file: notebooks/03_rupture/prob_failure_infinite_slope.ipynb
 site:
   options:
     logo: notebooks/figs/logo.svg

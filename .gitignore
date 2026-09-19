@@ -1,5 +1,6 @@
 .nbinteract.json
 .python-version
+*.pyc
 
 .vscode/
 _build/
@@ -32,6 +33,7 @@ notebooks/04_propagation/inputs
 obsoleto/
 *.bak
 /notebooks/02_trigg_factors/data_trigrs
+notebook_backups/
 /notebooks/02_trigg_factors/ET_spatial
 /notebooks/02_trigg_factors/ET_test
 /notebooks/02_trigg_factors/inputs

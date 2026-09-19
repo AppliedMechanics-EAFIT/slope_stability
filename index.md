@@ -1,15 +1,25 @@
-# Slope stability notes
+# Estabilidad de taludes
 
-These are the notes of the graduate course on **slope stability** at EAFIT University.
+Estas notas y herramientas computacionales acompañan el curso de posgrado de
+**Estabilidad de Taludes** de la Universidad EAFIT.
 
-The course is divided into four parts:
+El contenido se organiza en dos dominios de análisis:
 
-1. Conditioning factors
-1. Triggering factors
-1. Rupture and failure mechanisms
-1. Propagation of unstable masses
+1. **Dominio espacial (análisis territorial):** combina capas raster e
+   inventarios para evaluar susceptibilidad, efectos de sismos y lluvia, y
+   propagación de movimientos en masa sobre un área.
+1. **Dominio talud (análisis local):** estudia esfuerzos, deformaciones,
+   parámetros resistentes, factores detonantes y mecanismos de falla en un
+   talud o sección representativa.
 
-Check out the contents on the left panel to access them and their notebooks.
+Dentro de cada dominio, los capítulos siguen los aspectos del curso:
+**factores condicionantes**, **factores detonantes**, **rotura** y
+**propagación**. Solo se muestran los aspectos que actualmente cuentan con
+herramientas en ese dominio.
+
+Cada capítulo presenta los fundamentos mínimos, el uso de la herramienta y un
+caso reproducible. Los enlaces a Google Colab permiten ejecutar los notebooks
+sin una instalación local y cargar datos propios cuando corresponde.
 
 <!-- ```{toctree}
 ``` -->
