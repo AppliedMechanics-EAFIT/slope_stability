@@ -15,12 +15,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 NOTEBOOKS = {
-    "notebooks/01_cond_factors/landslide_susceptibility.ipynb": (
+    "notebooks/01_spatial_domain/01_conditioning_factors/landslide_susceptibility.ipynb": (
         r"""# Susceptibilidad a movimientos en masa
 
 © 2024 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_cond_factors/landslide_susceptibility.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_spatial_domain/01_conditioning_factors/landslide_susceptibility.ipynb)
 
 La herramienta estima la susceptibilidad mediante el método del **valor informativo** y agrega las unidades computacionales del terreno (TCU) en unidades de zonificación (TZU), siguiendo a {cite:t}`Ciurleo_etal_2016_SusceptibilityZoningShallow`. Los datos de demostración proceden del material docente de la escuela [LARAM 2023](https://www.laram.unisa.it/).""",
         r"""## Fundamentos
@@ -40,12 +40,12 @@ La zonificación es un resultado dependiente del inventario, de la clasificació
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb": (
+    "notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_and_stress_paths.ipynb": (
         r"""# Círculos de Mohr y trayectorias de esfuerzos
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb)""",
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_and_stress_paths.ipynb)""",
         r"""## Fundamentos
 
 Para un estado plano, el círculo de Mohr tiene centro $c=(\sigma_{xx}+\sigma_{yy})/2$ y radio $r=\sqrt{[(\sigma_{xx}-\sigma_{yy})/2]^2+\tau_{xy}^2}$. Sus intersecciones con el eje normal son los esfuerzos principales. Las variables $(s,t)$ y $(p,q)$ permiten representar la evolución del estado mediante trayectorias de esfuerzos.
@@ -59,12 +59,12 @@ Para un estado plano, el círculo de Mohr tiene centro $c=(\sigma_{xx}+\sigma_{y
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/01_cond_factors/mohr_circles_for_strains.ipynb": (
+    "notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_for_strains.ipynb": (
         r"""# Círculo de Mohr para deformaciones
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_cond_factors/mohr_circles_for_strains.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_for_strains.ipynb)
 
 La formulación sigue el capítulo 1 de *Mohr Circles, Stress Paths and Geotechnics* de {cite:t}`Parry2014_MohrCircles`.""",
         r"""## Fundamentos
@@ -80,12 +80,12 @@ El círculo de deformaciones representa deformación normal en el eje horizontal
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/01_cond_factors/spt_processing.ipynb": (
+    "notebooks/02_slope_domain/01_conditioning_factors/spt_processing.ipynb": (
         r"""# Procesamiento del ensayo SPT
 
 © 2023 Daniel F. Ruiz, Exneyder A. Montoya-Araque y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_cond_factors/spt_processing.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/01_conditioning_factors/spt_processing.ipynb)
 
 La herramienta aplica el procedimiento de {cite:t}`Gonzalez1999_ParametrosSPT` para estimar parámetros de resistencia a partir del ensayo de penetración estándar ([documento en español](https://www.scg.org.co/wp-content/uploads/2021/08/ESTIMATIVOS-DE-PARAMETROS-DE-RESISTENCIA-CON-SPT-1.pdf)).""",
         r"""## Fundamentos
@@ -101,12 +101,12 @@ El número de golpes medido debe corregirse por energía, diámetro de perforaci
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/01_cond_factors/strength_envelopes.ipynb": (
+    "notebooks/02_slope_domain/01_conditioning_factors/strength_envelopes.ipynb": (
         r"""# Envolventes de resistencia al corte
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_cond_factors/strength_envelopes.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/01_conditioning_factors/strength_envelopes.ipynb)
 
 La implementación sigue el análisis de fallas superficiales en taludes de suelo presentado por {cite:t}`Lade_2010_MechanicsSurficialFailure`.""",
         r"""## Fundamentos
@@ -122,12 +122,12 @@ La envolvente de Mohr–Coulomb aproxima la resistencia mediante $\tau_f=c'+\sig
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb": (
+    "notebooks/02_slope_domain/02_triggering_factors/infinite_slope_earthquake.ipynb": (
         r"""# Sismo como factor detonante de un talud infinito
 
 © 2024 Daniel F. Ruiz, Exneyder A. Montoya-Araque y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/02_triggering_factors/infinite_slope_earthquake.ipynb)
 
 La herramienta usa `pyNewmarkDisp`, desarrollado por {cite:t}`Montoya-Araque_etal_2024_OpensourceApplicationSoftware`, y el método clásico del bloque rígido deslizante de {cite:t}`Newmark_1965_EffectsEarthquakesDams`.""",
         r"""## Fundamentos
@@ -143,12 +143,12 @@ El mecanismo de talud infinito permite obtener el factor de seguridad estático 
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb": (
+    "notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_earthquake_spatial.ipynb": (
         r"""# Sismo como factor detonante en un dominio espacial
 
 © 2024 Daniel F. Ruiz, Exneyder A. Montoya-Araque y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_earthquake_spatial.ipynb)
 
 Se aplica `pyNewmarkDisp` ({cite:t}`Montoya-Araque_etal_2024_OpensourceApplicationSoftware`) a cada celda de un dominio, con base en el método de {cite:t}`Newmark_1965_EffectsEarthquakesDams`.""",
         r"""## Fundamentos
@@ -164,12 +164,12 @@ Cada celda se modela como un talud infinito con propiedades asignadas por zona. 
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb": (
+    "notebooks/02_slope_domain/02_triggering_factors/infinite_slope_rainfall.ipynb": (
         r"""# Lluvia como factor detonante de un talud infinito
 
 © 2024 Daniel F. Ruiz, Exneyder A. Montoya-Araque y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/02_triggering_factors/infinite_slope_rainfall.ipynb)
 
 El notebook ejecuta `TRIGRS` (*Transient Rainfall Infiltration and Grid-Based Regional Slope-Stability Analysis*), desarrollado por {cite:t}`Baum_etal_2002_TRIGRSFortranProgram` y {cite:t}`Baum_etal_2008_TRIGRSFortranProgram`, y paralelizado por {cite:t}`Alvioli_Baum_2016_ParallelizationTRIGRSModel`.""",
         r"""## Fundamentos
@@ -185,12 +185,12 @@ La infiltración transitoria modifica la presión de poros y, con ella, el esfue
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb": (
+    "notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_rainfall_spatial.ipynb": (
         r"""# Lluvia como factor detonante en un dominio espacial
 
 © 2024 Daniel F. Ruiz, Exneyder A. Montoya-Araque y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_rainfall_spatial.ipynb)
 
 El notebook ejecuta `TRIGRS`, desarrollado por {cite:t}`Baum_etal_2002_TRIGRSFortranProgram` y {cite:t}`Baum_etal_2008_TRIGRSFortranProgram`, y paralelizado por {cite:t}`Alvioli_Baum_2016_ParallelizationTRIGRSModel`.""",
         r"""## Fundamentos
@@ -210,12 +210,12 @@ El remuestreo no corrige errores de datum, unidades ni calidad del DEM. La direc
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/03_rupture/global_equilibrium_method.ipynb": (
+    "notebooks/02_slope_domain/03_rupture/global_equilibrium_method.ipynb": (
         r"""# Método de equilibrio global
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/03_rupture/global_equilibrium_method.ipynb)""",
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/03_rupture/global_equilibrium_method.ipynb)""",
         r"""## Fundamentos
 
 La geometría de una masa potencialmente inestable puede describirse mediante la intersección del terreno con una superficie circular. El área, el centroide y la longitud del arco son cantidades básicas para formular balances globales de fuerzas y momentos.
@@ -229,12 +229,12 @@ La geometría de una masa potencialmente inestable puede describirse mediante la
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/03_rupture/limit_equilibrium_method.ipynb": (
+    "notebooks/02_slope_domain/03_rupture/limit_equilibrium_method.ipynb": (
         r"""# Método de equilibrio límite
 
 © 2022 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/03_rupture/limit_equilibrium_method.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/03_rupture/limit_equilibrium_method.ipynb)
 
 La herramienta ejecuta `pyCSS`, asociado con {cite:t}`SuarezBurgoa_MontoyaAraque_2016_pyCSS`. También están disponibles la [versión original](https://github.com/eamontoyaa/pyCSS/tree/v0.0.9) y el [manual en español](https://github.com/eamontoyaa/pyCSS/tree/master/other_files).
 
@@ -252,12 +252,12 @@ Los métodos de dovelas satisfacen el equilibrio de una masa delimitada por el t
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/03_rupture/prob_failure_infinite_slope.ipynb": (
+    "notebooks/02_slope_domain/03_rupture/prob_failure_infinite_slope.ipynb": (
         r"""# Probabilidad de falla mediante Monte Carlo para un talud infinito
 
 © 2024 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/03_rupture/prob_failure_infinite_slope.ipynb)""",
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/02_slope_domain/03_rupture/prob_failure_infinite_slope.ipynb)""",
         r"""## Fundamentos
 
 La simulación de Monte Carlo propaga distribuciones de las variables de entrada a una muestra del factor de seguridad. La probabilidad de falla se estima como la fracción de realizaciones con $FS<1$. La estabilidad de la media y de la desviación estándar no garantiza por sí sola la convergencia de una probabilidad de cola.
@@ -271,12 +271,12 @@ La simulación de Monte Carlo propaga distribuciones de las variables de entrada
 
 ## Módulos requeridos y configuración de figuras""",
     ),
-    "notebooks/04_propagation/runout_semiempirical.ipynb": (
+    "notebooks/01_spatial_domain/04_propagation/runout_semiempirical.ipynb": (
         r"""# Simulación semiempírica de propagación de movimientos en masa
 
 © 2026 Exneyder A. Montoya-Araque, Daniel F. Ruiz y Universidad EAFIT.
 
-Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/04_propagation/runout_semiempirical.ipynb)
+Este notebook puede ejecutarse en línea → [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AppliedMechanics-EAFIT/slope_stability/blob/main/notebooks/01_spatial_domain/04_propagation/runout_semiempirical.ipynb)
 
 La herramienta aplica `Flow-Py v1.0`, propuesto por {cite:t}`DAmboise_etal_2022_FlowPyV10Customizable`, para estimar alcance e intensidad geométrica de flujos gravitacionales.""",
         r"""## Fundamentos

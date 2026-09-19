@@ -41,3 +41,13 @@ notebook_backups/
 uv.lock
 /notebooks/02_trigg_factors/ET260320
 notebooks/02_trigg_factors/tr_in.txt
+
+# Runtime products of the published domain-based notebooks
+/notebooks/01_spatial_domain/02_triggering_factors/ET260320
+/notebooks/01_spatial_domain/02_triggering_factors/ET_spatial
+/notebooks/02_slope_domain/02_triggering_factors/TRIG*
+/notebooks/02_slope_domain/02_triggering_factors/data_trigrs
+/notebooks/02_slope_domain/02_triggering_factors/tr_in.txt
+/notebooks/01_spatial_domain/04_propagation/data
+/notebooks/00_legacy_and_bkps
+

@@ -32,16 +32,16 @@ Herramientas que trabajan con inventarios y rasters sobre un área de estudio.
 
 #### Factores condicionantes
 
-1. [Susceptibilidad a movimientos en masa](./notebooks/01_cond_factors/landslide_susceptibility.ipynb)
+1. [Susceptibilidad a movimientos en masa](./notebooks/01_spatial_domain/01_conditioning_factors/landslide_susceptibility.ipynb)
 
 #### Factores detonantes
 
-1. [Sismo en un dominio espacial](./notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb)
-1. [Lluvia en un dominio espacial](./notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb)
+1. [Sismo en un dominio espacial](./notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_earthquake_spatial.ipynb)
+1. [Lluvia en un dominio espacial](./notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_rainfall_spatial.ipynb)
 
 #### Propagación
 
-1. [Simulación semiempírica de propagación](./notebooks/04_propagation/runout_semiempirical.ipynb)
+1. [Simulación semiempírica de propagación](./notebooks/01_spatial_domain/04_propagation/runout_semiempirical.ipynb)
 
 ### Dominio talud (análisis local)
 
@@ -49,21 +49,21 @@ Herramientas para caracterizar y analizar un talud o sección representativa.
 
 #### Factores condicionantes
 
-1. [Círculos de Mohr y trayectorias de esfuerzos](./notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb)
-1. [Círculo de Mohr para deformaciones](./notebooks/01_cond_factors/mohr_circles_for_strains.ipynb)
-1. [Procesamiento del ensayo SPT](./notebooks/01_cond_factors/spt_processing.ipynb)
-1. [Envolventes de resistencia al corte](./notebooks/01_cond_factors/strength_envelopes.ipynb)
+1. [Círculos de Mohr y trayectorias de esfuerzos](./notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_and_stress_paths.ipynb)
+1. [Círculo de Mohr para deformaciones](./notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_for_strains.ipynb)
+1. [Procesamiento del ensayo SPT](./notebooks/02_slope_domain/01_conditioning_factors/spt_processing.ipynb)
+1. [Envolventes de resistencia al corte](./notebooks/02_slope_domain/01_conditioning_factors/strength_envelopes.ipynb)
 
 #### Factores detonantes
 
-1. [Sismo en un talud infinito](./notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb)
-1. [Lluvia en un talud infinito](./notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb)
+1. [Sismo en un talud infinito](./notebooks/02_slope_domain/02_triggering_factors/infinite_slope_earthquake.ipynb)
+1. [Lluvia en un talud infinito](./notebooks/02_slope_domain/02_triggering_factors/infinite_slope_rainfall.ipynb)
 
 #### Rotura
 
-1. [Método de equilibrio global](./notebooks/03_rupture/global_equilibrium_method.ipynb)
-1. [Método de equilibrio límite](./notebooks/03_rupture/limit_equilibrium_method.ipynb)
-1. [Probabilidad de falla](./notebooks/03_rupture/prob_failure_infinite_slope.ipynb)
+1. [Método de equilibrio global](./notebooks/02_slope_domain/03_rupture/global_equilibrium_method.ipynb)
+1. [Método de equilibrio límite](./notebooks/02_slope_domain/03_rupture/limit_equilibrium_method.ipynb)
+1. [Probabilidad de falla](./notebooks/02_slope_domain/03_rupture/prob_failure_infinite_slope.ipynb)
 
 ## Respaldo
 

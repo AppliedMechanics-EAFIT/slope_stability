@@ -23,33 +23,33 @@ project:
       children:
         - title: Factores condicionantes
           children:
-            - file: notebooks/01_cond_factors/landslide_susceptibility.ipynb
+            - file: notebooks/01_spatial_domain/01_conditioning_factors/landslide_susceptibility.ipynb
         - title: Factores detonantes
           children:
-            - file: notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb
-            - file: notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb
+            - file: notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_earthquake_spatial.ipynb
+            - file: notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_rainfall_spatial.ipynb
         - title: Propagación
           children:
-            - file: notebooks/04_propagation/runout_semiempirical.ipynb
+            - file: notebooks/01_spatial_domain/04_propagation/runout_semiempirical.ipynb
     - title: Dominio talud (análisis local)
       children:
         - title: Factores condicionantes
           children:
-            - file: notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb
-            - file: notebooks/01_cond_factors/mohr_circles_for_strains.ipynb
-            - file: notebooks/01_cond_factors/spt_processing.ipynb
-            - file: notebooks/01_cond_factors/strength_envelopes.ipynb
+            - file: notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_and_stress_paths.ipynb
+            - file: notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_for_strains.ipynb
+            - file: notebooks/02_slope_domain/01_conditioning_factors/spt_processing.ipynb
+            - file: notebooks/02_slope_domain/01_conditioning_factors/strength_envelopes.ipynb
         - title: Factores detonantes
           children:
-            - file: notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb
-            - file: notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb
+            - file: notebooks/02_slope_domain/02_triggering_factors/infinite_slope_earthquake.ipynb
+            - file: notebooks/02_slope_domain/02_triggering_factors/infinite_slope_rainfall.ipynb
         - title: Rotura
           children:
-            - file: notebooks/03_rupture/global_equilibrium_method.ipynb
-            - file: notebooks/03_rupture/limit_equilibrium_method.ipynb
-            - file: notebooks/03_rupture/prob_failure_infinite_slope.ipynb
+            - file: notebooks/02_slope_domain/03_rupture/global_equilibrium_method.ipynb
+            - file: notebooks/02_slope_domain/03_rupture/limit_equilibrium_method.ipynb
+            - file: notebooks/02_slope_domain/03_rupture/prob_failure_infinite_slope.ipynb
 site:
   options:
-    logo: notebooks/figs/logo.svg
+    logo: assets/logo.svg
     folders: true
   template: book-theme

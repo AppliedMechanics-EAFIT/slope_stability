@@ -29,7 +29,7 @@ def save(relative_path: str, notebook: dict) -> None:
 
 
 def fix_landslide_susceptibility() -> None:
-    relative_path = "notebooks/01_cond_factors/landslide_susceptibility.ipynb"
+    relative_path = "notebooks/01_spatial_domain/01_conditioning_factors/landslide_susceptibility.ipynb"
     nb = load(relative_path)
     imports = "".join(nb["cells"][2]["source"])
     imports = imports.replace(
@@ -450,7 +450,7 @@ if not testing_data:
 
 
 def fix_earthquake_notebooks() -> None:
-    scalar_path = "notebooks/02_trigg_factors/infinite_slope_earthquake.ipynb"
+    scalar_path = "notebooks/02_slope_domain/02_triggering_factors/infinite_slope_earthquake.ipynb"
     nb = load(scalar_path)
     code = "".join(nb["cells"][4]["source"])
     code = code.replace(
@@ -466,7 +466,7 @@ def fix_earthquake_notebooks() -> None:
     nb["cells"][4]["source"] = source(code)
     save(scalar_path, nb)
 
-    spatial_path = "notebooks/02_trigg_factors/infinite_slope_earthquake_spatial.ipynb"
+    spatial_path = "notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_earthquake_spatial.ipynb"
     nb = load(spatial_path)
     nb["cells"][5]["source"] = source(r'''
 url = "https://raw.githubusercontent.com/eamontoyaa/data4testing/main/pynewmarkdisp/"
@@ -509,7 +509,7 @@ for array in (dem, slope, zones, depth, depth_w):
 
 
 def fix_probability_notebook() -> None:
-    relative_path = "notebooks/03_rupture/prob_failure_infinite_slope.ipynb"
+    relative_path = "notebooks/02_slope_domain/03_rupture/prob_failure_infinite_slope.ipynb"
     nb = load(relative_path)
     code = "".join(nb["cells"][4]["source"])
     code = code.replace("def compute_pf_variation_vector(data, confidence_level=0.95):", "def compute_pf_variation_vector(data):")
@@ -520,7 +520,7 @@ def fix_probability_notebook() -> None:
 
 
 def fix_mohr_defaults() -> None:
-    relative_path = "notebooks/01_cond_factors/mohr_circles_and_stress_paths.ipynb"
+    relative_path = "notebooks/02_slope_domain/01_conditioning_factors/mohr_circles_and_stress_paths.ipynb"
     nb = load(relative_path)
     defaults = {
         4: '{"c": 5, "𝜙": 27}',
@@ -543,7 +543,7 @@ def fix_mohr_defaults() -> None:
 
 
 def fix_runout() -> None:
-    relative_path = "notebooks/04_propagation/runout_semiempirical.ipynb"
+    relative_path = "notebooks/01_spatial_domain/04_propagation/runout_semiempirical.ipynb"
     nb = load(relative_path)
     nb["cells"][6]["source"] = source(r'''
 working_dir = "./data/"
@@ -641,7 +641,7 @@ write_dem_grid(
 
 
 def fix_rainfall_spatial() -> None:
-    relative_path = "notebooks/02_trigg_factors/infinite_slope_rainfall_spatial.ipynb"
+    relative_path = "notebooks/01_spatial_domain/02_triggering_factors/infinite_slope_rainfall_spatial.ipynb"
     nb = load(relative_path)
 
     code = "".join(nb["cells"][2]["source"])
@@ -823,7 +823,7 @@ else:
 
 
 def fix_rainfall_single_cell() -> None:
-    relative_path = "notebooks/02_trigg_factors/infinite_slope_rainfall.ipynb"
+    relative_path = "notebooks/02_slope_domain/02_triggering_factors/infinite_slope_rainfall.ipynb"
     nb = load(relative_path)
     code = "".join(nb["cells"][6]["source"])
     code = code.replace(
